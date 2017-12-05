@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="Currency Calculator" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Currency Calculator</name>
+    <description>
+        You can calculate currencies.
+    </description>
+    <author email="tkc4822@gmail.com" href="http://takeshioide.com">
+        Takeshi Oide
+    </author>
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="icon/android/36.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="icon/android/48.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="icon/android/72.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="icon/android/96.png" />
+    <icon gap:platform="android" gap:qualifier="xxhdpi" src="icon/android/144.png" />
+    <icon gap:platform="ios" height="57" src="icon/ios/57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="icon/ios/72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="icon/ios/57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="icon/ios/72-2x.png" width="144" />
+    <icon gap:platform="winphone" src="res/icon/windows-phone/icon-48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="res/icon/windows-phone/icon-173.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="splash/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="splash/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="splash/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="splash/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:platform="ios" height="480" src="splash/ios/screen-iphone-portrait.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="splash/ios/screen-iphone-portrait-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="splash/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="splash/ios/screen-ipad-portrait.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="splash/ios/screen-ipad-landscape.png" width="1024" />
+    <gap:splash src="splash.png" />
+    <gap:config-file parent="CFBundleShortVersionString" platform="ios">
+        <string>100</string>
+    </gap:config-file>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-installLocation" value="auto" />
+</widget>
